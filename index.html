@@ -248,6 +248,136 @@
             
               
                 
+                <a class="post-title-link" href="/2016/09/01/测试-md/" itemprop="url">
+                  测试.md
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-09-01T14:33:56+08:00" content="2016-09-01">
+              2016-09-01
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/09/01/测试-md/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/01/测试-md/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/09/01/测试-md/" class="leancloud_visitors" data-flag-title="测试.md">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="GPU机器使用说明"><a href="#GPU机器使用说明" class="headerlink" title="GPU机器使用说明"></a>GPU机器使用说明</h1><h2 id="权限申请流程"><a href="#权限申请流程" class="headerlink" title="权限申请流程"></a>权限申请流程</h2><ul>
+<li>见 <a href="http://gitlab.alibaba-inc.com/nlp/robot/wikis/gpu" target="_blank" rel="external">WIKI</a></li>
+</ul>
+<h2 id="登陆流程"><a href="#登陆流程" class="headerlink" title="登陆流程"></a>登陆流程</h2><ul>
+<li><big>登陆跳板机，时常变化。<a href="http://docs.alibaba-inc.com:8090/pages/viewpage.action?pageId=203557709" target="_blank" rel="external">跳板机地址</a></big></li>
+<li><big>登陆线上机器：<code>ssh 10.103.5.118</code></big></li>
+<li><big>登陆GPU机器：<code>gpu0246.et2 &amp;&amp; gpu0247.et2</code>（貌似是专用）</big>
+
+</li>
+</ul>
+<h2 id="文件传输"><a href="#文件传输" class="headerlink" title="文件传输"></a>文件传输</h2><ul>
+<li><big><a href="http://docs.alibaba-inc.com/pages/viewpage.action?pageId=202899898" target="_blank" rel="external">开通oss文件中转服务</a></big></li>
+<li><big>使用oss文件中转站进行文件传输</big><ul>
+<li>初次使用，创建bucket。<code>python osscmd cb 100004</code></li>
+<li><code>python osscmd put [localfile] oss://100004</code></li>
+<li><code>python osscmd get [oss://100004/myfile] [loalfile]</code></li>
+<li>按目录上传 <code>python osscmd  uploadfromdir   localdir oss://bucket/[sectech:prefix]</code></li>
+<li>按目录下载 <code>osscmd  downloadtodir  oss://bucket/[sectech:prefix]  localdir --replace=false</code></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2016/08/31/hello-world/" itemprop="url">
                   Hello World
                 </a>
@@ -380,13 +510,20 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-count">2</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
           
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
