@@ -224,10 +224,10 @@ h6 {
   margin: 20px 0 15px;
 }
 h3 {
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-indent: 4px;
   border-radius: 4px;
-  padding: 6px 15px;
+  padding: 4px 15px;
   margin-bottom: 20px;
   background: #a0b3d6;
   box-shadow: 10px 5px 5px #666;
@@ -1695,7 +1695,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff54ff;
+  background: #c3cbf7;
 }
 .links-of-blogroll {
   font-size: 13px;
