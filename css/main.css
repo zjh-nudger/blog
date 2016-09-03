@@ -1695,7 +1695,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff0487;
+  background: #ffa2fb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2258,13 +2258,13 @@ a.search-result {
   overflow: hidden;
 }
 h1,
-h3,
+h2,
 h4,
 h5,
 h6 {
   margin: 20px 0 10px;
 }
-h2 {
+h3 {
   font-size: 1.2em;
   text-indent: 4px;
   border-radius: 4px;
