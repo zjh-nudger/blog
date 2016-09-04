@@ -90,7 +90,7 @@
 <meta property="og:url" content="http://yoursite.com/2016/09/01/Hello World/index.html">
 <meta property="og:site_name" content="Vagrants">
 <meta property="og:description" content="基于Hexo＋GitHub搭建个人独立博客">
-<meta property="og:updated_time" content="2016-09-03T05:45:21.000Z">
+<meta property="og:updated_time" content="2016-09-04T23:52:14.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World">
 <meta name="twitter:description" content="基于Hexo＋GitHub搭建个人独立博客">
@@ -333,37 +333,42 @@
       
 
       
-        <h3>dsfda测试</h3>
-
-<h2 id="hexo安装及初始化"><a href="#hexo安装及初始化" class="headerlink" title="hexo安装及初始化"></a>hexo安装及初始化</h2><ul>
+        <h2 id="hexo安装及初始化"><a href="#hexo安装及初始化" class="headerlink" title="hexo安装及初始化"></a>hexo安装及初始化</h2><blockquote>
+<ul>
 <li>安装node.js</li>
 <li>安装hexo</li>
 </ul>
- <hr>
-
+</blockquote>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo</div></pre></td></tr></table></figure>
+<blockquote>
 <ul>
 <li>在blog目录下初始化</li>
 </ul>
+</blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo init</div></pre></td></tr></table></figure>
 <hr>
-<h2 id="托管到GitHub"><a href="#托管到GitHub" class="headerlink" title="托管到GitHub"></a>托管到GitHub</h2><ul>
+<h2 id="托管到GitHub"><a href="#托管到GitHub" class="headerlink" title="托管到GitHub"></a>托管到GitHub</h2><blockquote>
+<ul>
 <li>创建github仓库，建立本地仓库与远程仓库链接</li>
 <li>修改hexo配置文件 _config.yml</li>
 </ul>
+</blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repository: git@github.com:xxx/xxx.github.com.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
+<blockquote>
 <ul>
 <li>部署与启动</li>
 </ul>
+</blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo generate</div><div class="line">hexo server ##本地服务启动，localhost:4000</div><div class="line">hexo deploy ##根据配置的deploy部署</div></pre></td></tr></table></figure>
-<h2 id="域名申请与配置"><a href="#域名申请与配置" class="headerlink" title="域名申请与配置"></a>域名申请与配置</h2><ul>
+<h2 id="域名申请与配置"><a href="#域名申请与配置" class="headerlink" title="域名申请与配置"></a>域名申请与配置</h2><blockquote>
+<ul>
 <li><a href="https://netcn.console.aliyun.com/core/domain/list" target="_blank" rel="external">阿里云申请域名</a></li>
 <li>使用阿里云自带的域名解析服务，添加两条A纪录（主机纪录分别为@和www），添加github IP地址（通过ping命令可以获得）</li>
 <li>在github仓库根目录建立CNAME文件，内容为域名地址（不包括http以及www）</li>
 <li>几分钟之后就可以访问了</li>
 </ul>
-<h2 id="我的Blog"><a href="#我的Blog" class="headerlink" title="我的Blog"></a><a href="http://www.vagrants.win" target="_blank" rel="external">我的Blog</a></h2><p><a href="#" class="myButton">TestButton</a><br>哈哈<kbd>cdsaf</kbd></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="keyword">import</span> numpy</div><div class="line">print(<span class="string">"hello world"</span>)</div></pre></td></tr></table></figure>
+</blockquote>
+<p><a href="www.vagrants.win" class="myButton">我的BLOG</a></p>
 
       
     </div>
@@ -537,7 +542,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">dsfda测试</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo安装及初始化"><span class="nav-number"></span> <span class="nav-text">hexo安装及初始化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#托管到GitHub"><span class="nav-number"></span> <span class="nav-text">托管到GitHub</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#域名申请与配置"><span class="nav-number"></span> <span class="nav-text">域名申请与配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#我的Blog"><span class="nav-number"></span> <span class="nav-text">我的Blog</span></a></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo安装及初始化"><span class="nav-number">1.</span> <span class="nav-text">hexo安装及初始化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#托管到GitHub"><span class="nav-number">2.</span> <span class="nav-text">托管到GitHub</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#域名申请与配置"><span class="nav-number">3.</span> <span class="nav-text">域名申请与配置</span></a></li></ol></div>
             
           </div>
         </section>
