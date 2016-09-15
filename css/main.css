@@ -1410,6 +1410,11 @@ pre .javascript .function {
 }
 .post-more-link {
   margin-top: 50px;
+  border: 1px solid #bf1827;
+  border-radius: 10px;
+  padding: 6px 8px;
+  font-size: 0.8em;
+  margin-left: 20px;
 }
 .post-more-link .btn {
   color: #555;
@@ -1767,7 +1772,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #91ffdb;
+  background: #9aff69;
 }
 .links-of-blogroll {
   font-size: 13px;
